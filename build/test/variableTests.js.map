@@ -1,0 +1,1 @@
+{"version":3,"file":"variableTests.js","sourceRoot":"","sources":["../../src/test/variableTests.ts"],"names":[],"mappings":";;AAAA,+BAA8B;AAE9B,QAAQ,CAAC,mBAAmB,EAAE;IAC5B,QAAQ,CAAC,uBAAuB,EAAE;QAEhC,EAAE,CAAC,0BAA0B,EAAE;YAE7B,aAAM,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,KAAK,CAAC,CAAC,CAAC,CAAC;QAQxB,CAAC,CAAC,CAAC;IACL,CAAC,CAAC,CAAC;AACL,CAAC,CAAC,CAAC"}

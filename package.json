@@ -1,0 +1,27 @@
+{
+    "name": "uscript",
+    "version": "1.0.0",
+    "description": "uScript Compiler",
+    "main": "index.js",
+    "scripts": {
+        "antlr4ts": "antlr4ts -visitor ./parser/uScript.g4",
+        "pretest": "tsc",
+        "tsc: w": "tsc -w --outDir build",
+        "test": "mocha",
+        "lite": "lite-server --port 3000",
+        "start": "npm run lite"
+    },
+    "author": "David Burgess",
+    "license": "ISC",
+    "dependencies": {},
+    "devDependencies": {
+        "@types/chai": "^4.2.4",
+        "@types/mocha": "^5.2.7",
+        "@types/node": "^12.12.3",
+        "chai": "^4.2.0",
+        "lite-server": "^2.5.4",
+        "mocha": "^6.2.2",
+        "nyc": "^14.1.1",
+        "typescript": "^3.6.4"
+    }
+}
