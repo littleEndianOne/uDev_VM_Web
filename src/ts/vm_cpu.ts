@@ -1,11 +1,11 @@
 class Thread {
-    private _pc: Uint16Array;
+    private _pc: number;
 
     constructor() {
 
     }
 
-    get pc(): Uint16Array {
+    get pc(): number {
         return this._pc;
     }
 
