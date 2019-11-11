@@ -1,9 +1,3 @@
 {
-    "antlr4.generation": {
-        "mode": "external",
-        "language": "typescript",
-        "listeners": true,
-        "visitors": true,
-        "outputDir": "./parser"
-    }
+    "editor.codeActionsOnSave": {"source.fixAll.tslint": true}
 }

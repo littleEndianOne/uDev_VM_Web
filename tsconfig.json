@@ -4,11 +4,16 @@
         "module": "commonjs",
         "removeComments": true,
         "preserveConstEnums": false,
-        "sourceMap": true,    
+        "sourceMap": true,
         "experimentalDecorators": true,
+        "noImplicitReturns": true,        
         "noImplicitAny": true,
-        "outDir": "build"
-       },    
+        "noImplicitThis": true,
+        "alwaysStrict": true,
+        "strictNullChecks": true,
+        "noUnusedLocals": true,
+        "outDir": "build",       
+    },
     "include": [
         "src/**/*",
         "src/test/**/*"
